@@ -25,6 +25,9 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12% , 80%);
 
 
+    --home-section: linear-gradient(to left, #005aa75e, #fffde4);
+
+
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
 
@@ -86,6 +89,8 @@ body.dark-theme{
 
     --scroll-bar-color: hsl(var(--hue-color), 12% , 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12% , 36%);
+
+    --home-section:  linear-gradient(to right top, #0d1162, #211976, #33218b, #4629a0, #5931b5);
 
 }
 
@@ -307,8 +312,7 @@ img
 
 /*==================== HOME ====================*/
 .home.section{
-    background: linear-gradient(to right, #005aa75e, #fffde4);
-
+    background: var(--home-section);
 }
 .home__container
 {
