@@ -632,7 +632,14 @@ img
 {
     width: 30%;
 }
-
+.skills__laravel
+{
+    width: 40%;
+}
+.skills__wordpress
+{
+    width: 50%;
+}
 .skills__close .skills__list
 {
     height: 0;
