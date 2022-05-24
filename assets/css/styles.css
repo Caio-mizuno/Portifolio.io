@@ -597,6 +597,7 @@ img
 .skills__bar,
 .skills__percentage
 {
+    display:none;
     height: 5px;
     border-radius: .25rem;
 }
@@ -654,7 +655,10 @@ img
 {
     transform: rotate(-180deg);
 }
-
+.skill__legend{
+    font-size: 0.8rem;
+    margin-top: -4px;
+}
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs
 {
