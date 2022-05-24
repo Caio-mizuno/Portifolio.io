@@ -481,6 +481,15 @@ img
     color: var(--first-color-alt);
 }
 
+.button__certify{
+    display: inline-block;
+    margin-left: 1.5em;
+    background-color: var(--first-color);
+    color:#fff;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    font-weight: var(--small-font-size);
+}
 /*==================== ABOUT ====================*/
 .about__img
 {
