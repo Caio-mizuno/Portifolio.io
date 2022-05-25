@@ -586,6 +586,7 @@ img
 
 .skills__list
 {
+    box-shadow: 0px -6px 0px #3829c6;
     row-gap: 1.5rem;
     padding-left: 2.7rem;
 }
