@@ -1311,7 +1311,8 @@ img
     }
 
     .section{
-        padding-right: 6rem 0 2rem;
+        
+        padding: 6rem 0 2rem;
     }
     .section__subtitle{
         margin-bottom: 4rem;
